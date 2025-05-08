@@ -5,7 +5,7 @@
 - xml文档生成
 
 market:
-```
+```csharp
 using Ctp.Net;
 
 int reqId = 0;
@@ -48,7 +48,7 @@ private void Api_OnRtnDepthMarketData(DepthMarketDataField depthMarketData)
 ```
 
 trader:
-```
+```csharp
 using Ctp.Net;
 
 int reqId = 0;
