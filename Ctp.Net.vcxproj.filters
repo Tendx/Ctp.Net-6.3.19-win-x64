@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MarketApi.Custom.cpp" />
+    <ClCompile Include="MarketApi.g.cpp" />
+    <ClCompile Include="MarketSpi.g.cpp" />
+    <ClCompile Include="TraderApi.Custom.cpp" />
+    <ClCompile Include="TraderApi.g.cpp" />
+    <ClCompile Include="TraderSpi.g.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_delegates.g.h" />
+    <ClInclude Include="_typedefs.g.h" />
+    <ClInclude Include="Delegates.g.h" />
+    <ClInclude Include="Enums.g.h" />
+    <ClInclude Include="MarketApi.g.h" />
+    <ClInclude Include="MarketSpi.g.h" />
+    <ClInclude Include="Objects.g.h" />
+    <ClInclude Include="ThostFtdcMdApi.h" />
+    <ClInclude Include="ThostFtdcTraderApi.h" />
+    <ClInclude Include="ThostFtdcUserApiDataType.h" />
+    <ClInclude Include="ThostFtdcUserApiStruct.h" />
+    <ClInclude Include="TraderApi.g.h" />
+    <ClInclude Include="TraderSpi.g.h" />
+  </ItemGroup>
+</Project>
