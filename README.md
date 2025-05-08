@@ -117,7 +117,7 @@ private void Api_OnRspQryInvestorPosition(InvestorPositionField investorPosition
 {
     if (rspInfo?.ErrorID > 0)
     {
-        Console.WriteLine($"{nameof(_api.ReqQryInvestorPosition)} {rspInfo?.ErrorID}{rspInfo?.ErrorMsg}");
+        Console.WriteLine($"{nameof(api.ReqQryInvestorPosition)} {rspInfo?.ErrorID}{rspInfo?.ErrorMsg}");
         return;
     }
 }
@@ -126,7 +126,7 @@ private void Api_OnRspQryTradingAccount(TradingAccountField tradingAccount, RspI
 {
     if (rspInfo?.ErrorID > 0)
     {
-        Console.WriteLine($"{nameof(_api.ReqQryTradingAccount)} {rspInfo?.ErrorID}{rspInfo?.ErrorMsg}");
+        Console.WriteLine($"{nameof(api.ReqQryTradingAccount)} {rspInfo?.ErrorID}{rspInfo?.ErrorMsg}");
         return;
     }
 }
@@ -135,7 +135,7 @@ private void Api_OnRspQryOrder(OrderField order, RspInfoField rspInfo, int reque
 {
     if (rspInfo?.ErrorID > 0)
     {
-        Console.WriteLine($"{nameof(_api.ReqQryOrder)} {rspInfo.ErrorID} {rspInfo.ErrorMsg}");
+        Console.WriteLine($"{nameof(api.ReqQryOrder)} {rspInfo.ErrorID} {rspInfo.ErrorMsg}");
         return;
     }
 }
@@ -146,6 +146,6 @@ private void Api_OnRtnOrder(OrderField order)
 
 private void Api_OnRspError(RspInfoField rspInfo, int requestID, bool isLast)
 {
-    Console.WriteLine($"{nameof(_api.OnRspError)} {rspInfo.ErrorID} {rspInfo.ErrorMsg}");
+    Console.WriteLine($"{nameof(api.OnRspError)} {rspInfo.ErrorID} {rspInfo.ErrorMsg}");
 }
 ```
