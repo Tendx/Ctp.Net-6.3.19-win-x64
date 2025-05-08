@@ -1,0 +1,5 @@
+- CTP 6.3.19 win x68的cli/c++封装，基于.Net8
+- 优化了项目结构，所有接口封装+用户自定义接口处理
+- dll的显式指定，dll接口文件下载链接：https://www.simnow.com.cn/DocumentDown/api_3/5_2_2/traderapi_v6.3.19_P1.zip
+- 原汁原味的数据结构名称
+- xml文档生成
